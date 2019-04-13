@@ -1,3 +1,5 @@
+//This is the starting point of the node application
+
 const path = require("path");
 
 const express = require("express");
