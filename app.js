@@ -35,7 +35,7 @@ app.use(errorController.get404);
 
 mongoose
   .connect(
-    "mongodb+srv://anirudhganwal06:mongodb06@cluster0-z3vog.mongodb.net/nitk-students-data?retryWrites=true"
+    "mongodb+srv://<MONGODB_USERNAME>:<MONGODB_PASSWORD>@cluster0-z3vog.mongodb.net/nitk-students-data?retryWrites=true"
   )
   .then(result => {
     app.listen(3000, console.log("Server started!"));
